@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             txtCrearUsuario = new TextBox();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -48,11 +49,21 @@
             txtCrearUsuario.Size = new Size(276, 23);
             txtCrearUsuario.TabIndex = 1;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(209, 297);
+            label2.Name = "label2";
+            label2.Size = new Size(67, 15);
+            label2.TabIndex = 2;
+            label2.Text = "Contraseña";
+            // 
             // SingUp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(txtCrearUsuario);
             Controls.Add(label1);
             Name = "SingUp";
@@ -65,5 +76,6 @@
 
         private Label label1;
         private TextBox txtCrearUsuario;
+        private Label label2;
     }
 }
