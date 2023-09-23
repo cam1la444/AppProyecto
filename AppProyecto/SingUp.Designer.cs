@@ -32,6 +32,7 @@
             txtCrearUsuario = new TextBox();
             label2 = new Label();
             txtCrearContraseña = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -66,11 +67,21 @@
             txtCrearContraseña.Size = new Size(276, 23);
             txtCrearContraseña.TabIndex = 3;
             // 
+            // button1
+            // 
+            button1.Location = new Point(356, 353);
+            button1.Name = "button1";
+            button1.Size = new Size(114, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Crear Cuenta";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // SingUp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(txtCrearContraseña);
             Controls.Add(label2);
             Controls.Add(txtCrearUsuario);
@@ -87,5 +98,6 @@
         private TextBox txtCrearUsuario;
         private Label label2;
         private TextBox txtCrearContraseña;
+        private Button button1;
     }
 }
