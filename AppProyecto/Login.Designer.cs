@@ -29,20 +29,31 @@
         private void InitializeComponent()
         {
             txtUsuario = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // txtUsuario
             // 
-            txtUsuario.Location = new Point(384, 138);
+            txtUsuario.Location = new Point(239, 246);
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(100, 23);
+            txtUsuario.Size = new Size(413, 23);
             txtUsuario.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(176, 249);
+            label1.Name = "label1";
+            label1.Size = new Size(47, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Usuario";
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(txtUsuario);
             Name = "Login";
             Text = "Login";
@@ -53,5 +64,6 @@
         #endregion
 
         private TextBox txtUsuario;
+        private Label label1;
     }
 }
