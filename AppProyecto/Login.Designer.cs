@@ -32,6 +32,7 @@
             label1 = new Label();
             label2 = new Label();
             txtContraseña = new TextBox();
+            label3 = new Label();
             SuspendLayout();
             // 
             // txtUsuario
@@ -66,11 +67,22 @@
             txtContraseña.Size = new Size(413, 23);
             txtContraseña.TabIndex = 3;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe Print", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(387, 140);
+            label3.Name = "label3";
+            label3.Size = new Size(135, 65);
+            label3.TabIndex = 4;
+            label3.Text = "Entra";
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
             Controls.Add(txtContraseña);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -87,5 +99,6 @@
         private Label label1;
         private Label label2;
         private TextBox txtContraseña;
+        private Label label3;
     }
 }
