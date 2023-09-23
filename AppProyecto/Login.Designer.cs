@@ -33,6 +33,7 @@
             label2 = new Label();
             txtContraseña = new TextBox();
             label3 = new Label();
+            checkMostrar = new CheckBox();
             SuspendLayout();
             // 
             // txtUsuario
@@ -77,11 +78,22 @@
             label3.TabIndex = 4;
             label3.Text = "Entra";
             // 
+            // checkMostrar
+            // 
+            checkMostrar.AutoSize = true;
+            checkMostrar.Location = new Point(578, 335);
+            checkMostrar.Name = "checkMostrar";
+            checkMostrar.Size = new Size(130, 19);
+            checkMostrar.TabIndex = 5;
+            checkMostrar.Text = "Mostrar Contraseña";
+            checkMostrar.UseVisualStyleBackColor = true;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkMostrar);
             Controls.Add(label3);
             Controls.Add(txtContraseña);
             Controls.Add(label2);
@@ -100,5 +112,6 @@
         private Label label2;
         private TextBox txtContraseña;
         private Label label3;
+        private CheckBox checkMostrar;
     }
 }
