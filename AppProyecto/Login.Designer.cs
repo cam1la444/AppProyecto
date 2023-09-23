@@ -77,9 +77,9 @@
             label3.Font = new Font("Segoe Print", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(320, 47);
             label3.Name = "label3";
-            label3.Size = new Size(135, 65);
+            label3.Size = new Size(128, 65);
             label3.TabIndex = 4;
-            label3.Text = "Entra";
+            label3.Text = "Login";
             // 
             // checkMostrar
             // 
