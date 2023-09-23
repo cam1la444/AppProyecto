@@ -36,6 +36,7 @@
             checkMostrar = new CheckBox();
             button1 = new Button();
             label4 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // txtUsuario
@@ -109,11 +110,21 @@
             label4.Text = "¿No estas registrado?";
             label4.Click += label4_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(356, 372);
+            button2.Name = "button2";
+            button2.Size = new Size(99, 23);
+            button2.TabIndex = 8;
+            button2.Text = "Registrarme";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(checkMostrar);
@@ -138,5 +149,6 @@
         private CheckBox checkMostrar;
         private Button button1;
         private Label label4;
+        private Button button2;
     }
 }
