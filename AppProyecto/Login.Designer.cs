@@ -31,6 +31,7 @@
             txtUsuario = new TextBox();
             label1 = new Label();
             label2 = new Label();
+            txtContraseña = new TextBox();
             SuspendLayout();
             // 
             // txtUsuario
@@ -52,17 +53,25 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(178, 305);
+            label2.Location = new Point(156, 308);
             label2.Name = "label2";
             label2.Size = new Size(67, 15);
             label2.TabIndex = 2;
             label2.Text = "Contraseña";
+            // 
+            // txtContraseña
+            // 
+            txtContraseña.Location = new Point(239, 305);
+            txtContraseña.Name = "txtContraseña";
+            txtContraseña.Size = new Size(413, 23);
+            txtContraseña.TabIndex = 3;
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txtContraseña);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txtUsuario);
@@ -77,5 +86,6 @@
         private TextBox txtUsuario;
         private Label label1;
         private Label label2;
+        private TextBox txtContraseña;
     }
 }
