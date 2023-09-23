@@ -35,6 +35,7 @@
             label3 = new Label();
             checkMostrar = new CheckBox();
             button1 = new Button();
+            label4 = new Label();
             SuspendLayout();
             // 
             // txtUsuario
@@ -98,11 +99,22 @@
             button1.Text = "Acceder";
             button1.UseVisualStyleBackColor = true;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(347, 341);
+            label4.Name = "label4";
+            label4.Size = new Size(118, 15);
+            label4.TabIndex = 7;
+            label4.Text = "¿No estas registrado?";
+            label4.Click += label4_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(checkMostrar);
             Controls.Add(label3);
@@ -125,5 +137,6 @@
         private Label label3;
         private CheckBox checkMostrar;
         private Button button1;
+        private Label label4;
     }
 }
