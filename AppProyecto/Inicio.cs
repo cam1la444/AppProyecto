@@ -12,7 +12,7 @@ namespace AppProyecto
 {
     public partial class Inicio : Form
     {
-        public Inicio()
+        public InicioForm()
         {
             InitializeComponent();
         }
@@ -62,14 +62,6 @@ namespace AppProyecto
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            CuerpoLecciones Frm = new CuerpoLecciones();
-            Frm.TopLevel = false;
-            Cuerpo.Controls.Add(Frm);
-            Frm.Show();
         }
     }
 }
