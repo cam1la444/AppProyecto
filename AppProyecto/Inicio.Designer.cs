@@ -1,6 +1,6 @@
 ﻿namespace AppProyecto
 {
-    partial class InicioForm
+    partial class Inicio
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Inicio";
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioForm));
             MenuVertical = new Panel();
             button1 = new Button();
@@ -320,25 +324,5 @@
         }
 
         #endregion
-
-        private Panel MenuVertical;
-        private Panel Cabeza;
-        private Panel Cuerpo;
-        private PictureBox Logo;
-        private PictureBox Ventana;
-        private PictureBox Maximizar;
-        private PictureBox Cerrar;
-        private PictureBox DesplegarMenu;
-        private Button BtUsuario;
-        private PictureBox Minimizar;
-        private Button BtNotificaciones;
-        private Button BtAjustesA;
-        private Button button1;
-        private Button BtAsistenciaA;
-        private Button BtLeccionesPendientes;
-        private Button Recursos;
-        private Button button2;
-        private Button BtLecciones;
-        private Button button3;
     }
 }

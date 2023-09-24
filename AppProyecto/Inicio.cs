@@ -7,14 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
 namespace AppProyecto
 {
-    public partial class InicioForm : Form
+    public partial class Inicio : Form
     {
-        public InicioForm()
+        public Inicio()
         {
             InitializeComponent();
         }
